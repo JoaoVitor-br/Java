@@ -99,7 +99,7 @@ public class Lista3 {
 		double sal_bruto = horas_trabalhadas * valor_hora;
 		double imposto = sal_bruto * desconto;
 		double sal_niquido = sal_bruto-imposto;
-		System.out.println("O total recebido foi R$ "+sal_niquido);
+		System.out.println("O total recebido foi R$ "+sal_niquido);          
 		
 		
 	}
