@@ -1,0 +1,48 @@
+package PrimeiroProjeto;
+
+import java.util.Scanner;
+
+public class biblioteca {
+
+	public static void main(String[] args) {
+		
+		
+		//Print - Mostra o texto sem pular a linha
+		System.out.print("Olá");
+		System.out.print("Mundo \n");
+		//Println - Mostra o texto pulsndo linha
+		
+		
+		
+		//Comparação de texto
+		String senha = "senhasecreta";
+		if(senha.equals("sonic")) {
+			System.out.println("senha certa");
+		}
+		else {
+			System.out.println("senha errada");
+		}
+
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Escrava uma palavra: ");
+		String resposta = scanner.next();
+		
+		if(resposta.equalsIgnoreCase("java")) {
+			System.out.println("Acertou");
+		}
+		
+		
+		System.out.print("Informe uma cor: ");
+		String cor = scanner.next();
+		if(cor.equalsIgnoreCase("azul")) {
+			System.out.println("cor azul");
+		}else if (cor.equalsIgnoreCase("verde")) {
+			System.out.println("A cor é verde");
+		}else {
+			System.out.println("cor errada");
+		}
+		
+	}
+
+}
