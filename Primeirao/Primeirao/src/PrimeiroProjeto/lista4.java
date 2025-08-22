@@ -101,9 +101,9 @@ public class lista4 {
 		if (horas <10) {
 			System.out.println("Bônus por hora extra R$"+horas*20);
 		}
-		else(horas >=10){
+		else{
 			System.out.println("Bônus por hora extra R$"+horas*15);
 		}
-		}
+	
 	}
 }
