@@ -99,6 +99,30 @@ public class Lista6 {
 			System.out.println("Não pode dirigir.");
 		}
 		
+//		9 - Elegibilidade para Bolsa de Estudos
+		
+		System.out.println("Qual e a sua media(0 a 10): ");
+		int media = scanner.nextInt();
+		System.out.println("Quantas faltas voce teve: ");
+		double falta_escola = scanner.nextDouble();
+		if(media >=(8)&& falta<(80)) {
+			System.out.println("Bolsa concedida. ");
+		}else {
+			System.out.println("Bolsa não concedidas.");
+		}
+		
+//		10 - Verificação de Temperatura Ambiente
+		
+		System.out.println("qual e a umidade: ");
+		int umidade = scanner.nextInt();
+		System.out.println("Qual e a temperatura: ");
+		double temp_auto = scanner.nextDouble();
+		if(temp_auto >=(18)&& temp_auto<(26)&& umidade >= 60) {
+			System.out.println("Ajustar climatização. ");
+		}else {
+			System.out.println("limatização não necessária.");
+		}
+			
 	}
 
 }
