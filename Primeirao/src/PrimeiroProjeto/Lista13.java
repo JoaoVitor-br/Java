@@ -85,7 +85,7 @@ public class Lista13 {
 				}else if(idade >= 13 && idade <= 17) {
 					System.out.println("Adolescente.");
 				}else if(idade >= 17 && idade <= 59) {
-					System.out.println("Adolescente.");
+					System.out.println("Adulto.");
 				}else {
 				System.out.println("Idoso.");
 				}}
@@ -103,3 +103,4 @@ public class Lista13 {
 				}}
 	}
 }
+
