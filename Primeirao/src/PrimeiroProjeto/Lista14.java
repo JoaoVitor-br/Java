@@ -44,9 +44,32 @@ public class Lista14 {
 //		6 - Imprimir números ímpares de 1 a N:
 		System.out.println("escreva munumero: ");
 		int cin = scanner.nextInt();
+		for(int e=0;e <=cin;e++) {
+			if(e%2!=0) {
+				System.out.println(e);
+			}
+		}
+//		7 - Multiplicação de valores:
+		int nume;
+		int mult=1;
+		for(int e=0;e<=5;e++) {
+			System.out.println("escreva um numero: ");
+			nume = scanner.nextInt();
+			mult = mult*nume;
+			
+		}
+		System.out.println(mult);
 		
-		
-		
+//		8 - Premiação da empresa:
+		for(int e=0;e<=10;e++) {
+			System.out.println("Voce tem quantos anos de impresa: ");
+			int idade = scanner.nextInt();
+			if(idade >10) {
+				System.out.println("Parabéns! Você irá receber um prêmio");
+			}else {
+				System.out.println("Quase lá");
+			}
+		}
 	}
 
 }
