@@ -77,6 +77,26 @@ public class Lista15 {
 		for(int e = 0;e <5;e++) {
 			System.out.println(nome[e]+" tem "+idade[e]+" anos");
 		}
+		
+//		7 - Identificação de idade
+		int[] velice = new int[10];
+		for(int e =0;e <5;e++){
+			System.out.println("Qual é a sus idade: ");
+			velice[e] = scanner.nextInt();
+			if(velice[e] < 18) {
+				System.out.println("você é menor de idade");
+			}
+		}
+		
+//		8 - Aumento em massa
+		int[] salario = new int[7];
+		for(int e =0;e<7;e++) {
+			System.out.println("Qual e o seu salario atual: ");
+			salario[e] = scanner.nextInt();
+			if(salario[e] <=2500) {
+				System.out.println("você receberá um aumento");
+			}
+		}
 	}
 
 }
