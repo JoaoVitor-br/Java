@@ -96,24 +96,6 @@ public class Lista16 {
 				System.out.println("aluno reprovado");
 			}else if(nota[e]<6 && nota[e]<7) {
 				System.out.println("aluno em recuperação");
-			}else if(nota[e]>7) {
-				System.out.println("aluno aprovado");
-			}else {
-				System.out.println("Nota fora de escopo");
-			}
-		}
-		
-//		8 - Promoção de ingressos
-		double[] ingresso = new double[5];
-		for(int e=0;e<5;e++) {
-			System.out.println("Qual e o preço do ingresso: ");
-			ingresso[e] = scanner.nextDouble();
-		}
-		for(int e = 0; e < 5; e++) {
-			if(ingresso[e]>100) {
-				System.out.println("Ingresso com promoção disponível!");
-			}else {
-				System.out.println("Preço total.");
 			}
 		}
 	}
