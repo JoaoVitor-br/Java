@@ -1,0 +1,17 @@
+package PrimeiroProjeto;
+import java.util.Scanner;
+
+public class testes {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		int divisivel=0;
+		for(int e = 1;e<=50;e++) {
+			if(e%3==0) {
+				divisivel ++;
+			}
+		System.out.println(divisivel);
+		}
+	}
+}

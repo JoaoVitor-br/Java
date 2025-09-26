@@ -1,0 +1,18 @@
+package PrimeiroProjeto;
+import java.util.Scanner;
+
+public class testes {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("escreva uma letra:");
+		String letra = scanner.next();
+		if(letra.equalsIgnoreCase("A")||letra.equalsIgnoreCase("E")||letra.equalsIgnoreCase("I")||letra.equalsIgnoreCase("O")||letra.equalsIgnoreCase("U")) {
+			System.out.println("Vogal");
+		}
+		else {
+			System.out.println("Consoante");
+		}
+		
+	}
+}

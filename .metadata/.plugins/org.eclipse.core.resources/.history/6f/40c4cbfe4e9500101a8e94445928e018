@@ -1,0 +1,13 @@
+package PrimeiroProjeto;
+import java.util.Scanner;
+
+public class testes {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		 for(int d = 1;d <= 50;d =d+2) {
+			 System.out.println(d);
+		 } 
+	}
+}

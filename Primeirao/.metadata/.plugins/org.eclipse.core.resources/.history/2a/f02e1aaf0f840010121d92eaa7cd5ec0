@@ -1,0 +1,21 @@
+package PrimeiroProjeto;
+
+import java.util.Scanner;
+
+public class Lista7 {
+	Scanner scanner = new Scanner(System.in);
+	
+//	1 - Classificação de Filme
+	sys
+	int idade = scanner.nextInt();
+	System.out.println("Voce tem experiencia?");
+	String experiencia = scanner.next();
+	if(idade >=(20) && idade <=40 && experiencia.equalsIgnoreCase("sim")) {
+		System.out.println("inscrição azeita");
+	}else {
+		System.out.println("inscrição nevada");
+		}
+	
+	}
+	
+}

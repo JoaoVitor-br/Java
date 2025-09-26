@@ -85,22 +85,21 @@ public class Lista13 {
 				}else if(idade >= 13 && idade <= 17) {
 					System.out.println("Adolescente.");
 				}else if(idade >= 17 && idade <= 59) {
-					System.out.println("Adulto.");
+					System.out.println("Adolescente.");
 				}else {
 				System.out.println("Idoso.");
 				}}
 //		 9 - Número Positivo ou Negativo
 		 for(int i = 0;i <= 7; i++) {
-				int idade;
-				System.out.println("digite sua idade: ");
-				idade = scanner.nextInt();
-				if(idade < 0) {
+				int numero;
+				System.out.println("digite um numero: ");
+				numero = scanner.nextInt();
+				if(numero < 0) {
 					System.out.println("negativo.");
-				}else if(idade > 0 ) {
+				}else if(numero > 0 ) {
 					System.out.println("positivo.");
 				}else {
 				System.out.println("zero.");
 				}}
 	}
 }
-
