@@ -6,13 +6,14 @@ public class testes {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 
-		int[] reverso = new int[7];
-		for(int e = 0;e<7;e++) {
-			System.out.println("escreva um numero: ");
-			reverso[e] = scanner.nextInt();
+		int[] parismo = new int[10];
+		for(int e = 0; e<10;e++) {
+			System.out.println("Digite um numero: ");
+			parismo[e] =scanner.nextInt();
 		}
-		for(int e =6;e>=0;e--) {
-			System.out.println(reverso[e]);
-		}
+		for(int e=0;e<10;e++) {
+			if(parismo[e] % 2 ==0) {
+			System.out.println(parismo[e]);
+			}}
 	}
 }
