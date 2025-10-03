@@ -12,6 +12,8 @@ public class Lista18 {
 		espaco();
 		quadrado();
 		espaco();
+		regressiva();
+		espaco();
 		par();
 		espaco();
 		triangulo();
@@ -50,10 +52,9 @@ public class Lista18 {
 		}
 	}
 	public static void regressiva() {
-		for(int e = 10;e > 0;e++) {
+		for(int e = 10;e > 0;e--) {
 			System.out.println(e);
-		if(e = 1) {System.out.println("fim!");}
-		}
+		}System.out.println("fim!");
 	}
 	public static void triangulo() {
 //		double[][] teste = new double[5][5];
@@ -74,6 +75,6 @@ public class Lista18 {
 		}
 	}
 	public static void semana() {
-		System.out.println("Segunda \n Terça \n Quarta \n Quinta \n Sexta \n Sabado \n Domingo");
+		System.out.println("Segunda \nTerça \nQuarta \nQuinta \nSexta \nSabado \nDomingo");
 	}
 }
