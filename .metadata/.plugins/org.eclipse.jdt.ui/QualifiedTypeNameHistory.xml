@@ -5,6 +5,8 @@
     <fullyQualifiedTypeName name="sun.jvm.hotspot.gc.parallel.PSYoungGen"/>
     <fullyQualifiedTypeName name="PrimeiroProjeto.switchCase"/>
     <fullyQualifiedTypeName name="int"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="double"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xml.internal.utils.ListingErrorHandler"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="org.jcp.xml.dsig.internal.dom.DOMXSLTTransform"/>
 </qualifiedTypeNameHistroy>
