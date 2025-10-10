@@ -122,6 +122,6 @@ public class Lista19 {
 	public static void aprovacao(int nota) {
 		if(nota>7) {
 			System.out.println("Aprovado");
-		}else if()
+		}//else if()
 	}
 }
