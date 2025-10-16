@@ -1,0 +1,39 @@
+package PrimeiroProjeto;
+
+import java.util.Scanner;
+
+public class Gestao_de_Notas_de_Alunos {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String nome_aluno;
+		String Ano_aluno;
+		double nota_aluno;
+		double media_aluno =0;
+		String sistema;
+		do {
+//			System.out.println("Digite o nome do aluno: ");
+			nome_aluno = scanner.next();
+//			System.out.println("Qual e o ano que este aluno esta");
+			Ano_aluno = scanner.next();
+			for(int e =0;e<=3;) {
+				System.out.println("Qual a nota deste aluno: ");
+				nota_aluno = scanner.nextDouble();
+				if(nota_aluno <0 && nota_aluno >=10) {
+					e++;
+					media_aluno = media_aluno + nota_aluno;
+					
+				}else {
+					System.out.println("Valor invalido, insira um valor dentro do intervalo de 0 a 10");
+				}
+				
+			}
+			System.out.println(media_aluno);
+//			if()
+			
+			
+		}while(5<3);
+
+	}
+	
+}

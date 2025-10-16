@@ -1,6 +1,6 @@
 package PrimeiroProjeto;
 
-public class Lista18 {
+public class Gestao_de_Notas_de_Alunos {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
