@@ -1,0 +1,126 @@
+package PrimeiroProjeto;
+
+import java.util.Scanner;
+
+public class Lista21 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.println("Digite um numero: ");
+		int ex1val1 = scanner.nextInt();
+		System.out.println("Digite outro numero");
+		int ex1val2 = scanner.nextInt();
+		somar(ex1val1, ex1val2);
+		nada();
+		System.out.println("Digite um numero: ");
+		int ex2val1 = scanner.nextInt();
+		System.out.println("Digite outro numero");
+		int ex2val2 = scanner.nextInt();
+		sob(ex2val1, ex2val2);
+		nada();
+		System.out.println("Digite um numero: ");
+		int ex3val1 = scanner.nextInt();
+		System.out.println("Digite outro numero");
+		int ex3val2 = scanner.nextInt();
+		mult(ex3val1, ex3val2);
+		nada();
+		System.out.println("Digite um numero: ");
+		int ex4val1 = scanner.nextInt();
+		System.out.println("Digite outro numero");
+		int ex4val2 = scanner.nextInt();
+		div(ex4val1, ex4val2);
+		nada();
+		System.out.println("Digite um numero: ");
+		int ex5val1 = scanner.nextInt();
+		System.out.println("Digite outro numero");
+		int ex5val2 = scanner.nextInt();
+		media(ex5val1, ex5val2);
+		nada();
+		System.out.println("Digite um numero: ");
+		int ex6val1 = scanner.nextInt();
+		System.out.println("Digite outro numero");
+		int ex6val2 = scanner.nextInt();
+		media2(ex6val1, ex6val2);
+		nada();
+		System.out.println("Digite um numero: ");
+		int ex7val1 = scanner.nextInt();
+		System.out.println("Digite outro numero");
+		int ex7val2 = scanner.nextInt();
+		maiorNumero(ex7val1, ex7val2);
+		nada();
+		System.out.println("Digite um numero: ");
+		int ex8val1 = scanner.nextInt();
+		converterCelsiusParaFahrenheit(ex8val1);
+		nada();
+		System.out.println("Digite a base da figura: ");
+		int ex9val1 = scanner.nextInt();
+		System.out.println("Digite a altura da figura: ");
+		int ex9val2 = scanner.nextInt();
+		calcularAreaRetangulo(ex9val1, ex9val2);
+		nada();
+		System.out.println("Digite a altura da figura: ");
+		String ex10val1 = scanner.next();
+		gerarMensagem(ex10val1);
+		nada();
+		System.out.println("Digite a altura da figura: ");
+		String ex11val1 = scanner.next();
+		System.out.println("Digite a altura da figura: ");
+		String ex11val2 = scanner.next();
+		juntarNomes(ex11val1, ex11val2);
+		nada();
+		System.out.println("Digite um numero: ");
+		int ex12val1 = scanner.nextInt();
+		
+	}
+	public static int somar(int num1,int num2) {
+		return num1 + num2;
+	}
+	public static void nada() {
+		System.out.println("Outra lição");
+	}public static int sob(int num1,int num2) {
+		return num1 - num2;
+	}public static int mult(int num1,int num2) {
+		return num1 * num2;
+	}public static int div(int num1,int num2) {
+		if(num1 ==0 || num2 ==0) {
+			System.out.println("Não pode dividir 0");
+		}
+		return num1 / num2;
+	}public static int media(int num1,int num2) {
+		return (num1 + num2)/2;
+	}public static String media2(int num1,int num2) {
+		if(((num1 + num2)/2) > 7) {
+			return "Aprovado";
+		}else {
+			return "Reprovado";
+		}
+	}public static int maiorNumero(int num1,int num2) {
+		if(num1 > num2) {
+			return num1;
+		}else if (num2 > num1) {
+			return num2;
+		}else {
+			return 0;
+		}
+	}public static int converterCelsiusParaFahrenheit(int num1) {
+		return (num1 * (9/5)) + 32 ;
+	}public static int calcularAreaRetangulo(int num1,int num2) {
+		return num1 * num2 ;
+	}public static String gerarMensagem(String nome) {
+		return "Olá, "+nome;
+	}public static String  juntarNomes(String nome1,String nome2) {
+		return nome1+nome2;
+	}public static String avaliarIdade(int num1) {
+		if(num1 < 12 ) {
+			return "Criança";
+		}else if (num1 <18) {
+			return "Adolescente";
+		}else if (num1 <60) {
+			return "Adulto";
+		}else {
+			return "Idoso";
+		}
+	}
+
+}

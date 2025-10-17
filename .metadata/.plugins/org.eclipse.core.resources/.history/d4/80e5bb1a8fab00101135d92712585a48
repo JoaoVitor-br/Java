@@ -79,9 +79,9 @@ public class Lista20 {
 		System.out.println(no+me);
 	}public static void virificacao(int cem) {
 		if(cem==100) {
-			System.out.println("E maior que cem");
+			System.out.println("E cem!!");
 		}else {
-			System.out.println("Não é maior que cem.");
+			System.out.println("Não e cem.");
 		}
 	}public static void veloicidade(int veloz) {
 		if (veloz <40) {
